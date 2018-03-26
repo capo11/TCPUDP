@@ -41,6 +41,9 @@ public class TCPUDP {
                     tcp.intervalloPorte(IPAddress, port1, port2);
                     break;
                 case 3:
+                    System.out.println("Inserisci l'indirizzo ip dell'host:");
+                    IPAddress = input.next();
+                    tcp.servizi(IPAddress);
                     break;
                 case 0:
                     esci=1;
